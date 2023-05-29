@@ -7,9 +7,10 @@ Langkah :
 Soal skenario_02
 Langkah :
 1. Masuk ke directory dimana file python diletakkan
-2. Run program dengan syntax "python skenario2.py"
-3. Lalu terminal akan menampilkan URL untuk kita akses, contoh "http://127.0.0.1:5000/"
-4. Uji fungsi endpoint, disini saya menggunakan Postman
+2. Pastikan Flask telah terinstall, jika belum jalankan "pip install Flask" di terminal atau di command prompt anda
+3. Run program dengan syntax "python skenario2.py"
+4. Lalu terminal akan menampilkan URL untuk kita akses, contoh "http://127.0.0.1:5000/"
+5. Uji fungsi endpoint, disini saya menggunakan Postman
   - Fungsi pertama yaitu untuk membuat tugas baru dengan metode 'POST', syntax "http://127.0.0.1:5000/baru"
 ![Capture](https://github.com/46-45/digireg-be/assets/90466465/c1116844-f112-4efd-b141-b4186e42c267)
   - Fungsi kedua yaitu untuk mengambil daftar semua tugas dengan metode 'GET', syntax "http://127.0.0.1:5000/daftar"
