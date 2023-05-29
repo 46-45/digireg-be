@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Data
+# Data contoh
 tasks = [
     {"id": 1, "title": "Tugas 1", "description": "Membangun website Sistem Informasi"},
     {"id": 2, "title": "Tugas 2", "description": "Membangun aplikasi mobile untuk absesi karyawan"},
